@@ -1,9 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.less';
+import React from 'react';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.app}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+
+      </div>
     </div>
   );
 }
